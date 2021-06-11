@@ -44,17 +44,7 @@ app.get("/",function(req,res){
       
     })
 })
-app.post("/delete",function(req,res){
-  
-  User.findByIdAndRemove(req.body.button,function(err){
-    if(err){
-        console.log(err);
-    }
-    
-    res.redirect("/")
 
-})
-})
 
  app.get("/posts/:pos",function(req,res){ 
   
