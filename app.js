@@ -32,6 +32,7 @@ const userSchema = ({
   title : String,
   name : String
   
+  
 })
 const User =new mongoose.model("user",userSchema)
 
