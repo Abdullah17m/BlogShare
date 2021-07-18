@@ -2,12 +2,13 @@
 
 
 const express = require("express");
+
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
 const homeStartingContent = "Hello There! Here you Can share your day to blogs anonymously or by introducing yourself with everyone.This will be fun experince for everyone and everyone will get to know each other.Thank you Have fun";
-const email = "abdullahmemon6702@gmail.com"
+const email = "email@email.com"
 const contactContent = "This website was built by me.For contact click on links below.";
 
 const app = express();
